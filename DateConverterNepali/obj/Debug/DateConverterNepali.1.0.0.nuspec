@@ -1,0 +1,26 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2012/06/nuspec.xsd">
+  <metadata>
+    <id>DateConverterNepali</id>
+    <version>1.0.0</version>
+    <title>Nepali Date Converter</title>
+    <authors>Gaurav Maharjan</authors>
+    <description>A library for converting dates between Nepali (Bikram Sambat) and Gregorian (AD) calendars.
+
+Easy to Use
+
+// Sample Code
+
+var dcn = new DateConverterNepali.Converter();
+Console.WriteLine(dcn.GetDateInBS(DateTime.Now)); // Date Time parameter
+Console.WriteLine(dcn.GetDateInAD("2081/02/29")); // Nepali Date in String Parameter
+
+This Should Do Job</description>
+    <dependencies>
+      <group targetFramework="net7.0" />
+    </dependencies>
+  </metadata>
+  <files>
+    <file src="C:\Users\gaurav.maharjan\source\repos\DateConverterNepali\DateConverterNepali\bin\Debug\net7.0\DateConverterNepali.dll" target="lib\net7.0\DateConverterNepali.dll" />
+  </files>
+</package>
